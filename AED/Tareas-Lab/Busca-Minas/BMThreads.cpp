@@ -85,7 +85,7 @@ int main() {
         cin >> col;
 
         if (arr[fila][col] == -1) {
-            cout << "💥 BOOM! Mina encontrada!" << endl;
+            cout << "💥 🐎 BOOM! Mina encontrada!" << endl;
         } else {
             cout << "Valor seguro: " << arr[fila][col] << endl;
         }

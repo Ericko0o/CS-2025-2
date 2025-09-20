@@ -55,7 +55,7 @@ int buscarPalabra(char* p, const char* palabra, int filas, int cols) {
 }
 
 int main() {
-    // Matriz pupiletras (10x10)
+    // matriz pupiletras
     char matriz[10][10] = {
         {'T','P','P','A','P','T','P','I','P','T'},
         {'O','P','A','T','A','P','O','Z','O','J'},
@@ -69,15 +69,15 @@ int main() {
         {'P','S','S','N','T','T','T','P','A','P'}
     };
 
-    // Palabra a buscar
+    // palabra a buscar
     char palabra[20];
     cout << "Ingrese la palabra a buscar: ";
     cin >> palabra;
 
-    // Puntero al inicio de la matriz
+    // puntero al inicio de la matriz
     char* p = &matriz[0][0];
 
-    // Buscar cuántas veces aparece
+    // buscar cuántas veces aparece
     int repeticiones = buscarPalabra(p, palabra, 10, 10);
 
     cout << "La palabra '" << palabra << "' aparece " 
